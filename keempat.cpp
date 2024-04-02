@@ -32,6 +32,7 @@ int main() {
 	cin >> mhs[i].umur;
     }
 
+    for(int i=0;i<3;i++){
 	cout << endl;
 	cout << "\n NIM : " << mhs[i].nim;
 	cout << "\n Nama : " << mhs[i].nama;
@@ -39,4 +40,5 @@ int main() {
 	cout << "\n \t Nama Desa : " << mhs[i].alamat.desa;
 	cout << "\n \t Nama Kota : " << mhs[i].alamat.kota;
 	cout << "\n Umur : " << mhs[i].umur;
+    }
 }
